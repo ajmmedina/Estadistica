@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideHorizontalTop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideHorizontal1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.166667" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideHorizontal2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.333333" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideHorizontal3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideHorizontal4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.666667" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideHorizontal5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.833333" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideHorizontalBottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="1" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideVerticalLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideVertical1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.25" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideVertical2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.3333333" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideVertical3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideVertical4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.6666667" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideVertical5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.75" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideVerticalRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="1" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Boton_0"
+        style="@style/BotonTeclado.Numero"
+        android:text="@string/tecla_0"
+        app:layout_constraintBottom_toTopOf="@+id/guideHorizontalBottom"
+        app:layout_constraintEnd_toStartOf="@+id/guideVertical1"
+        app:layout_constraintStart_toStartOf="@+id/guideVerticalLeft"
+        app:layout_constraintTop_toTopOf="@+id/guideHorizontal5"
+        tools:ignore="TextContrastCheck" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Boton_punto"
+        style="@style/BotonTeclado.Numero"
+        android:text="@string/tecla_punto"
+        app:layout_constraintBottom_toTopOf="@+id/guideHorizontalBottom"
+        app:layout_constraintEnd_toStartOf="@+id/guideVertical3"
+        app:layout_constraintStart_toStartOf="@+id/guideVertical1"
+        app:layout_constraintTop_toTopOf="@+id/guideHorizontal5"
+        tools:ignore="TextContrastCheck" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Boton_1"
+        style="@style/BotonTeclado.Numero"
+        android:text="@string/tecla_1"
+        app:layout_constraintBottom_toTopOf="@+id/guideHorizontal5"
+        app:layout_constraintEnd_toStartOf="@+id/guideVertical1"
+        app:layout_constraintStart_toStartOf="@+id/guideVerticalLeft"
+        app:layout_constraintTop_toTopOf="@+id/guideHorizontal4"
+        tools:ignore="TextContrastCheck" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Boton_2"
+        style="@style/BotonTeclado.Numero"
+        android:text="@string/tecla_2"
+        app:layout_constraintBottom_toTopOf="@+id/guideHorizontal5"
+        app:layout_constraintEnd_toStartOf="@+id/guideVertical3"
+        app:layout_constraintStart_toStartOf="@+id/guideVertical1"
+        app:layout_constraintTop_toTopOf="@+id/guideHorizontal4"
+        tools:ignore="TextContrastCheck" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Boton_3"
+        style="@style/BotonTeclado.Numero"
+        android:text="@string/tecla_3"
+        app:layout_constraintBottom_toTopOf="@+id/guideHorizontal5"
+        app:layout_constraintEnd_toStartOf="@+id/guideVertical5"
+        app:layout_constraintStart_toStartOf="@+id/guideVertical3"
+        app:layout_constraintTop_toTopOf="@+id/guideHorizontal4"
+        tools:ignore="TextContrastCheck" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Boton_4"
+        style="@style/BotonTeclado.Numero"
+        android:text="@string/tecla_4"
+        app:layout_constraintBottom_toTopOf="@+id/guideHorizontal4"
+        app:layout_constraintEnd_toStartOf="@+id/guideVertical1"
+        app:layout_constraintStart_toStartOf="@+id/guideVerticalLeft"
+        app:layout_constraintTop_toTopOf="@+id/guideHorizontal3"
+        tools:ignore="TextContrastCheck" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Boton_5"
+        style="@style/BotonTeclado.Numero"
+        android:text="@string/tecla_5"
+        app:layout_constraintBottom_toTopOf="@+id/guideHorizontal4"
+        app:layout_constraintEnd_toStartOf="@+id/guideVertical3"
+        app:layout_constraintStart_toStartOf="@+id/guideVertical1"
+        app:layout_constraintTop_toTopOf="@+id/guideHorizontal3"
+        tools:ignore="TextContrastCheck" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Boton_6"
+        style="@style/BotonTeclado.Numero"
+        android:text="@string/tecla_6"
+        app:layout_constraintBottom_toTopOf="@+id/guideHorizontal4"
+        app:layout_constraintEnd_toStartOf="@+id/guideVertical5"
+        app:layout_constraintStart_toStartOf="@+id/guideVertical3"
+        app:layout_constraintTop_toTopOf="@+id/guideHorizontal3"
+        tools:ignore="TextContrastCheck" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Boton_7"
+        style="@style/BotonTeclado.Numero"
+        android:text="@string/tecla_7"
+        app:layout_constraintBottom_toTopOf="@+id/guideHorizontal3"
+        app:layout_constraintEnd_toStartOf="@+id/guideVertical1"
+        app:layout_constraintStart_toStartOf="@+id/guideVerticalLeft"
+        app:layout_constraintTop_toTopOf="@+id/guideHorizontal2"
+        tools:ignore="TextContrastCheck" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Boton_8"
+        style="@style/BotonTeclado.Numero"
+        android:text="@string/tecla_8"
+        app:layout_constraintBottom_toTopOf="@+id/guideHorizontal3"
+        app:layout_constraintEnd_toStartOf="@+id/guideVertical3"
+        app:layout_constraintStart_toStartOf="@+id/guideVertical1"
+        app:layout_constraintTop_toTopOf="@+id/guideHorizontal2"
+        tools:ignore="TextContrastCheck" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Boton_9"
+        style="@style/BotonTeclado.Numero"
+        android:text="@string/tecla_9"
+        app:layout_constraintBottom_toTopOf="@+id/guideHorizontal3"
+        app:layout_constraintEnd_toStartOf="@+id/guideVertical5"
+        app:layout_constraintStart_toStartOf="@+id/guideVertical3"
+        app:layout_constraintTop_toTopOf="@+id/guideHorizontal2"
+        tools:ignore="TextContrastCheck" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Boton_Mover_Izquierda"
+        style="@style/BotonTeclado.Movimiento"
+        android:text="@string/tecla_izquierda"
+        app:layout_constraintBottom_toTopOf="@+id/guideHorizontal2"
+        app:layout_constraintEnd_toStartOf="@+id/guideVertical2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/guideVerticalLeft"
+        app:layout_constraintTop_toTopOf="@+id/guideHorizontal1"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Boton_Mover_Abajo"
+        style="@style/BotonTeclado.Movimiento"
+        android:text="@string/tecla_abajo"
+        app:layout_constraintBottom_toTopOf="@+id/guideHorizontalBottom"
+        app:layout_constraintEnd_toStartOf="@+id/guideVertical5"
+        app:layout_constraintStart_toStartOf="@+id/guideVertical3"
+        app:layout_constraintTop_toTopOf="@+id/guideHorizontal5" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Boton_Mover_Derecha"
+        style="@style/BotonTeclado.Movimiento"
+        android:text="@string/tecla_derecha"
+        app:layout_constraintBottom_toTopOf="@+id/guideHorizontal2"
+        app:layout_constraintEnd_toStartOf="@+id/guideVertical4"
+        app:layout_constraintStart_toStartOf="@+id/guideVertical2"
+        app:layout_constraintTop_toTopOf="@+id/guideHorizontal1" />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/Boton_Ok"
+        style="@style/BotonTeclado.Aceptar"
+        android:contentDescription="@string/tecla_aceptar"
+        android:src="@drawable/icono_aceptar"
+        app:layout_constraintBottom_toTopOf="@+id/guideHorizontalBottom"
+        app:layout_constraintEnd_toStartOf="@+id/guideVerticalRight"
+        app:layout_constraintStart_toStartOf="@+id/guideVertical5"
+        app:layout_constraintTop_toTopOf="@+id/guideHorizontal4" />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/Boton_Borrar_Numero"
+        style="@style/BotonTeclado.Borrar"
+        android:contentDescription="@string/tecla_borrar_digito"
+        android:src="@drawable/icono_borrar_numero"
+        app:layout_constraintBottom_toTopOf="@+id/guideHorizontal4"
+        app:layout_constraintEnd_toStartOf="@+id/guideVerticalRight"
+        app:layout_constraintStart_toStartOf="@+id/guideVertical5"
+        app:layout_constraintTop_toTopOf="@+id/guideHorizontal2" />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/Boton_Intercambiar_Edit"
+        style="@style/BotonTeclado.Movimiento"
+        android:contentDescription="@string/tecla_intercambiar"
+        android:src="@drawable/icono_intercambiar"
+        app:layout_constraintBottom_toTopOf="@+id/guideHorizontal2"
+        app:layout_constraintEnd_toStartOf="@+id/guideVerticalRight"
+        app:layout_constraintStart_toStartOf="@+id/guideVertical4"
+        app:layout_constraintTop_toTopOf="@+id/guideHorizontal1" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/Edit_Numero_X"
+        style="@style/EditTeclado"
+        android:hint="@string/edit_x"
+        app:layout_constraintBottom_toTopOf="@+id/guideHorizontal1"
+        app:layout_constraintEnd_toStartOf="@+id/guideVertical3"
+        app:layout_constraintStart_toStartOf="@+id/guideVerticalLeft"
+        app:layout_constraintTop_toTopOf="@+id/guideHorizontalTop"
+        tools:ignore="DuplicateClickableBoundsCheck,TextContrastCheck" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/Edit_Numero_Y"
+        style="@style/EditTeclado"
+        android:hint="@string/edit_y"
+        app:layout_constraintBottom_toTopOf="@+id/guideHorizontal1"
+        app:layout_constraintEnd_toStartOf="@+id/guideVerticalRight"
+        app:layout_constraintStart_toStartOf="@+id/guideVertical3"
+        app:layout_constraintTop_toTopOf="@+id/guideHorizontalTop"
+        tools:ignore="DuplicateClickableBoundsCheck,TextContrastCheck" />
+
+    <View
+        android:id="@+id/View_Tapa_Edit_X"
+        style="@style/ViewTeclado"
+        app:layout_constraintBottom_toTopOf="@+id/guideHorizontal1"
+        app:layout_constraintEnd_toStartOf="@+id/guideVertical3"
+        app:layout_constraintStart_toStartOf="@+id/guideVerticalLeft"
+        app:layout_constraintTop_toTopOf="@+id/guideHorizontalTop"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <View
+        android:id="@+id/View_Tapa_Edit_Y"
+        style="@style/ViewTeclado"
+        app:layout_constraintBottom_toTopOf="@+id/guideHorizontal1"
+        app:layout_constraintEnd_toStartOf="@+id/guideVerticalRight"
+        app:layout_constraintStart_toStartOf="@+id/guideVertical3"
+        app:layout_constraintTop_toTopOf="@+id/guideHorizontalTop"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

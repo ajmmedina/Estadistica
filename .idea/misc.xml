@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android/Estadistica/Teclados/src/main/res/drawable/edit_cursor.xml" value="0.212" />
+        <entry key="..\:/Android/Estadistica/Teclados/src/main/res/layout/actividad_teclado_compuesto.xml" value="0.358695652173913" />
+        <entry key="..\:/Android/Estadistica/Teclados/src/main/res/layout/actividad_teclado_simple.xml" value="0.358695652173913" />
+        <entry key="..\:/Android/Estadistica/app/src/main/res/layout/actividad_principal.xml" value="0.358695652173913" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

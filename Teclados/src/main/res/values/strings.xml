@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Teclados</string>
+
+    <!-- Teclado numérico -->
+    <string name="tecla_0">0</string>
+    <string name="tecla_1">1</string>
+    <string name="tecla_2">2</string>
+    <string name="tecla_3">3</string>
+    <string name="tecla_4">4</string>
+    <string name="tecla_5">5</string>
+    <string name="tecla_6">6</string>
+    <string name="tecla_7">7</string>
+    <string name="tecla_8">8</string>
+    <string name="tecla_9">9</string>
+    <string name="tecla_punto">.</string>
+
+    <!-- Teclado movimiento -->
+    <string name="tecla_izquierda">\u261A</string>
+    <string name="tecla_derecha">\u261B</string>
+    <string name="tecla_abajo">\u25BD</string>
+    <string name="tecla_aceptar">Aceptar</string>
+    <string name="tecla_borrar_digito">Borrar dígito</string>
+    <string name="tecla_borrar_texto">Borrar texto</string>
+    <string name="tecla_intercambiar">Intercambiar edit</string>
+
+    <!-- Edits -->
+    <string name="edit_x">Dato (X)</string>
+    <string name="edit_y">Dato (Y)</string>
+
+</resources>
