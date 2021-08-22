@@ -16,30 +16,26 @@ class ActividadPrincipal : AppCompatActivity() {
         binding = ActividadPrincipalBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        crearTeclados()
+        crearTeclado()
+        botones()
     }
 
-    private fun crearTeclados() {
+    private fun crearTeclado() {
         binding.tecladoSimple.setOnBotonesPresionados(object : OnBotonesPresionadosTecladoSimple {
             override fun onBotonAceptar(valor: Double) {
                 Toast.makeText(this@ActividadPrincipal, "Valor = $valor", Toast.LENGTH_SHORT).show()
             }
 
             override fun onBotonCancelar() {
-                Toast.makeText(this@ActividadPrincipal, "Se canceló", Toast.LENGTH_SHORT).show()
+                binding.guideSeparacion.setGuidelinePercent(1F)
             }
 
         })
+    }
 
-        binding.tecladoCompuesto.setOnBotonesPresionados(object : OnBotonesPresionadosTecladoCompuesto {
-            override fun onBotonAceptar(valorX: Double, valorY: Double) {
-                Toast.makeText(this@ActividadPrincipal, "X = $valorX\nY = $valorY", Toast.LENGTH_SHORT).show()
-            }
-
-            override fun onBotonCancelar() {
-                Toast.makeText(this@ActividadPrincipal, "Se canceló", Toast.LENGTH_SHORT).show()
-            }
-
-        })
+    private fun botones() {
+        binding.botonDatoAgregar.setOnClickListener {
+            binding.guideSeparacion.setGuidelinePercent(0.5F)
+        }
     }
 }

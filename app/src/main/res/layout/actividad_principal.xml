@@ -15,11 +15,36 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideSeparacion" />
 
-    <com.ajmmedina.teclados.compuesto.TecladoCompuesto
-        android:id="@+id/tecladoCompuesto"
+    <RelativeLayout
+        android:id="@+id/layoutEdicion"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/guideSeparacion"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageButton
+            android:id="@+id/botonDatoEliminar"
+            style="@style/BotonRedondo"
+            android:layout_alignParentEnd="true"
+            android:contentDescription="@string/eliminar_dato"
+            android:src="@drawable/icono_borrar_dato"
+            tools:ignore="ImageContrastCheck" />
+
+        <ImageButton
+            android:id="@+id/botonDatoAgregar"
+            style="@style/BotonRedondo"
+            android:contentDescription="@string/agregar_dato"
+            android:src="@drawable/icono_agregar_dato"
+            tools:ignore="ImageContrastCheck" />
+
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerListaDatos"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        app:layout_constraintBottom_toTopOf="@+id/guideSeparacion"
+        app:layout_constraintBottom_toTopOf="@+id/layoutEdicion"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

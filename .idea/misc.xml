@@ -4,8 +4,16 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Android/Estadistica/Teclados/src/main/res/drawable/edit_cursor.xml" value="0.212" />
+        <entry key="..\:/Android/Estadistica/Teclados/src/main/res/drawable/edit_rectangulo.xml" value="0.2335" />
+        <entry key="..\:/Android/Estadistica/Teclados/src/main/res/drawable/icono_borrar_numero.xml" value="0.2335" />
+        <entry key="..\:/Android/Estadistica/Teclados/src/main/res/drawable/icono_limpiar_todo.xml" value="0.2335" />
+        <entry key="..\:/Android/Estadistica/Teclados/src/main/res/drawable/ripple_boton_borrar.xml" value="0.2335" />
+        <entry key="..\:/Android/Estadistica/Teclados/src/main/res/drawable/ripple_boton_movimiento.xml" value="0.2335" />
         <entry key="..\:/Android/Estadistica/Teclados/src/main/res/layout/actividad_teclado_compuesto.xml" value="0.358695652173913" />
         <entry key="..\:/Android/Estadistica/Teclados/src/main/res/layout/actividad_teclado_simple.xml" value="0.358695652173913" />
+        <entry key="..\:/Android/Estadistica/app/src/main/res/drawable/icono_borarr_dato.xml" value="0.2335" />
+        <entry key="..\:/Android/Estadistica/app/src/main/res/drawable/icono_borrar_dato.xml" value="0.2335" />
+        <entry key="..\:/Android/Estadistica/app/src/main/res/drawable/ripple_boton_redondo.xml" value="0.2335" />
         <entry key="..\:/Android/Estadistica/app/src/main/res/layout/actividad_principal.xml" value="0.358695652173913" />
       </map>
     </option>
